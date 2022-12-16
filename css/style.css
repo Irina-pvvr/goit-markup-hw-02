@@ -8,6 +8,8 @@ color: #FFFFFF;}
 .link {
     text-decoration: none;
 }
+
+/* HEADER */
 .header-page {}
 .header-navigation {}
 .header-logo-web {
@@ -79,3 +81,80 @@ color: #FFFFFF;}
 .button-app:focus {color: #FFFFFF; background: #404BBF;}
 .button-design:focus {color: #FFFFFF; background: #404BBF;}
 .button-marketing:focus {color: #FFFFFF; background: #404BBF;}
+
+/* PORTFOLIO*/
+
+.button {
+}
+.button-item {
+}
+.button-all {
+}
+.button-web-site {
+}
+.button-app {
+}
+.button-design {
+}
+.button-marketing {
+}
+.portfolio {
+}
+.portfolio-bank {
+}
+.link {
+}
+.portfolio-title-bank {
+}
+.portfolio-text-bank {
+}
+.portfolio-cashless {
+}
+.portfolio-title-cashless {
+}
+.portfolio-text-cashless {
+}
+.portfolio-button-text-cashless {
+}
+.portfolio-meditation {
+}
+.portfolio-title-meditation {
+}
+.portfolio-text-meditation {
+}
+.portfolio-taxi {
+}
+.portfolio-title-taxi {
+}
+.portfolio-text-taxi {
+}
+.portfolio-screen {
+}
+.portfolio-title-screen {
+}
+.portfolio-text-screen {
+}
+.portfolio-online {
+}
+.portfolio-title-online {
+}
+.portfolio-text-online {
+}
+.portfolio-instagram {
+}
+.portfolio-title-instagram {
+}
+.portfolio-text-instagram {
+}
+.portfolio-food {
+}
+.portfolio-title-food {
+}
+.portfolio-text-food {
+}
+.portfolio-coffee {
+}
+.portfolio-title-coffee {
+}
+.portfolio-text-coffee {
+}
