@@ -66,9 +66,16 @@ color: #FFFFFF;}
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    background: #F4F4FD;
 }
-.button-all:hover {color: #FFFFFF;}
-.button-web-site:hover {color: #FFFFFF;}
-.button-app:hover {color: #FFFFFF;}
-.button-design:hover {color: #FFFFFF;}
-.button-marketing:hover{color: #FFFFFF;}
+.button-all:hover {color: #FFFFFF;background: #404BBF;}
+.button-web-site:hover {color: #FFFFFF; background: #404BBF;}
+.button-app:hover {color: #FFFFFF; background: #404BBF;}
+.button-design:hover {color: #FFFFFF; background: #404BBF;}
+.button-marketing:hover{color: #FFFFFF; background: #404BBF;}
+
+.button-all:focus {color: #FFFFFF; background: #404BBF;} 
+.button-web-site:focus {color: #FFFFFF; background: #404BBF;}
+.button-app:focus {color: #FFFFFF; background: #404BBF;}
+.button-design:focus {color: #FFFFFF; background: #404BBF;}
+.button-marketing:focus {color: #FFFFFF; background: #404BBF;}
