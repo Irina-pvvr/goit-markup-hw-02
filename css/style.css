@@ -1,9 +1,52 @@
 body 
-{font-family: roboto, sans-serif;
+{font-family: Roboto, sans-serif;
 color: #FFFFFF;}
-h2 {color: #2E2F42;}
-p {color: #434455;}
-button {color: #4D5AE5;}
 
-
+.header-page {}
+.header-navigation {}
+.header-logo-web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5; 
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.header-lists {}
+.header-item {}
+.header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5; 
+}
+.header-contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-email-item {}
+.header-email-link {}
+.header-tel-item {}
+.header-tel-link {}
 
