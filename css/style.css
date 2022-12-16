@@ -49,4 +49,26 @@ color: #FFFFFF;}
 .header-email-link {}
 .header-tel-item {}
 .header-tel-link {}
+.button-all {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.button-web-site, .button-app, .button-design, .button-marketing
+ {  font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
 
+}
