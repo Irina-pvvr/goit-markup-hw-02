@@ -5,6 +5,9 @@ color: #FFFFFF;}
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 .header-page {}
 .header-navigation {}
 .header-logo-web {
