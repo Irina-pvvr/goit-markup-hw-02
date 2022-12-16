@@ -55,18 +55,8 @@ color: #FFFFFF;}
 .header-email-link {}
 .header-tel-item {}
 .header-tel-link {}
-.button-all {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
-.button-web-site, .button-app, .button-design, .button-marketing
+
+.button-all, .button-web-site, .button-app, .button-design, .button-marketing
  {  font-family: inherit;
     font-weight: 600;
     font-size: 16px;
@@ -76,5 +66,9 @@ color: #FFFFFF;}
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-
 }
+.button-all:hover {color: #FFFFFF;}
+.button-web-site:hover {color: #FFFFFF;}
+.button-app:hover {color: #FFFFFF;}
+.button-design:hover {color: #FFFFFF;}
+.button-marketing:hover{color: #FFFFFF;}
