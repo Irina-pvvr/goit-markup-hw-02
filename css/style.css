@@ -2,6 +2,9 @@ body
 {font-family: Roboto, sans-serif;
 color: #FFFFFF;}
 
+.list {
+    list-style: none;
+}
 .header-page {}
 .header-navigation {}
 .header-logo-web {
