@@ -84,77 +84,70 @@ color: #FFFFFF;}
 
 /* PORTFOLIO*/
 
-.button {
+.portfolio-title-bank, 
+.portfolio-title-cashless,
+.portfolio-title-meditation,
+.portfolio-title-taxi,
+.portfolio-title-screen,
+.portfolio-title-online,
+.portfolio-title-instagram,
+.portfolio-title-food,
+.portfolio-title-coffee 
+{font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
-.button-item {
+.portfolio-text-bank,
+.portfolio-text-cashless 
+.portfolio-text-meditation
+.portfolio-text-taxi
+.portfolio-text-screen
+.portfolio-text-online
+.portfolio-text-instagram 
+.portfolio-text-food 
+.portfolio-text-coffee 
+{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-.button-all {
+
+/* ФУТЕР */
+.footer-page {background-color:  #2E2F42;}
+.footer-logo {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
 }
-.button-web-site {
-}
-.button-app {
-}
-.button-design {
-}
-.button-marketing {
-}
-.portfolio {
-}
-.portfolio-bank {
-}
-.link {
-}
-.portfolio-title-bank {
-}
-.portfolio-text-bank {
-}
-.portfolio-cashless {
-}
-.portfolio-title-cashless {
-}
-.portfolio-text-cashless {
-}
-.portfolio-button-text-cashless {
-}
-.portfolio-meditation {
-}
-.portfolio-title-meditation {
-}
-.portfolio-text-meditation {
-}
-.portfolio-taxi {
-}
-.portfolio-title-taxi {
-}
-.portfolio-text-taxi {
-}
-.portfolio-screen {
-}
-.portfolio-title-screen {
-}
-.portfolio-text-screen {
-}
-.portfolio-online {
-}
-.portfolio-title-online {
-}
-.portfolio-text-online {
-}
-.portfolio-instagram {
-}
-.portfolio-title-instagram {
-}
-.portfolio-text-instagram {
-}
-.portfolio-food {
-}
-.portfolio-title-food {
-}
-.portfolio-text-food {
-}
-.portfolio-coffee {
-}
-.portfolio-title-coffee {
-}
-.portfolio-text-coffee {
+
+.footer-logo-web {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+} 
+.text-fotter {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5em;
+   letter-spacing: 0.02em;
+   color: #E7E9FC;
 }
