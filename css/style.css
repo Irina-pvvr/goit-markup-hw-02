@@ -1,6 +1,5 @@
 body 
-{font-family: Roboto, sans-serif;
-color: #FFFFFF;}
+{font-family: Roboto, sans-serif;}
 
 .list {
     list-style: none;
@@ -10,6 +9,102 @@ color: #FFFFFF;}
 }
 
 /* HEADER */
+/* 1-а сторінка Основна частина*/
+/* 1-а сторінка, Секція 1 з кнопкою- */
+
+.page-button-order {
+    background-color: #2E2F42;
+}
+.page-button-order-service  {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19em;
+    display: flex;
+    align-items: center; 
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    position: absolute;
+}
+.page-button-order-service:hover {
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.page-button-order-service:focus {
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.page-button-title {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/* 1-а сторінка, Секція 2 Принципи компанії */
+.title-strategy,
+.title-punctuality,
+.title-diligence,
+.title-technologies {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.text-title-strategy,
+.text-title-punctuality,
+.text-title-diligence,
+.text-title-technologies {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.title-we-doing,
+.title-our-team {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+/* 1-а сторінка, Секція 4 Команда компанії */
+.name-mark,
+.name-tom,
+.name-camila,
+.name-daniel {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.job-product-designer,
+.job-frontend-developer,
+.job-marketing,
+.job-ui-designer {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* 2-а сторінка */
 .header-page {}
 .header-navigation {}
 .header-logo-web {
