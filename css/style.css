@@ -145,7 +145,7 @@ body
 
 /* оформлення кнопок 2-а сторінка портфоліо
 all, web-site, app, design, marketing*/
-.button-title
+.button-name
  {  font-family: inherit;
     font-weight: 600;
     font-size: 16px;
@@ -157,10 +157,10 @@ all, web-site, app, design, marketing*/
     color: #4D5AE5;
     background: #F4F4FD;
 }
-.button-title:hover 
+.button-name:hover 
 {color: #FFFFFF;background: #404BBF;}
 
-.button-title:focus 
+.button-name:focus 
 {color: #FFFFFF; background: #404BBF;} 
 
 /* PORTFOLIO*/
