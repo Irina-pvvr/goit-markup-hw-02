@@ -209,7 +209,7 @@ all, web-site, app, design, marketing*/
     color: #4D5AE5;
 } 
 .text-fotter {
-   font-family: 'Roboto';
+   font-family: inherit;
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5em;
