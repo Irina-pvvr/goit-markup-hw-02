@@ -25,7 +25,6 @@ body
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #4D5AE5;
-    position: absolute;
 }
 .page-button-order-service:hover {
     color: #4D5AE5;
@@ -45,22 +44,39 @@ body
     color: #FFFFFF;
 }
 
-/* 1-а сторінка, Секція 2 Принципи компанії */
-.title-strategy,
-.title-punctuality,
-.title-diligence,
-.title-technologies {
-    font-family: 'Roboto';
+/* Оформлення слів Studio Portfolio Contacts*/
+.header-link {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/* Оформлення телефону та імейл*/
+.header-contacts {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* 1-а сторінка, 
+Секція 2 Принципи компанії */
+.title {
+    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.text-title-strategy,
-.text-title-punctuality,
-.text-title-diligence,
-.text-title-technologies {
+.text-title {
     font-family: inherit;
     font-weight: 400;
     font-size: 16px;
@@ -68,8 +84,10 @@ body
     letter-spacing: 0.02em;
     color: #434455;
 }
-.title-we-doing,
-.title-our-team {
+
+/* 1-а сторінка заголовки секцій 
+наша робота, наша команда*/
+.title-section {
     font-family: inherit;
     font-weight: 600;
     font-size: 36px;
@@ -79,11 +97,10 @@ body
     text-transform: capitalize;
     color: #2E2F42;
 }
-/* 1-а сторінка, Секція 4 Команда компанії */
-.name-mark,
-.name-tom,
-.name-camila,
-.name-daniel {
+/* 1-а сторінка, 
+Секція 4 Команда компанії
+імена, професія */
+.name {
     font-family: inherit;
     font-weight: 500;
     font-size: 20px;
@@ -92,10 +109,7 @@ body
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.job-product-designer,
-.job-frontend-developer,
-.job-marketing,
-.job-ui-designer {
+.job {
     font-family: inherit;
     font-weight: 400;
     font-size: 16px;
@@ -105,8 +119,7 @@ body
     color: #434455;
 }
 /* 2-а сторінка */
-.header-page {}
-.header-navigation {}
+
 .header-logo-web {
     font-family: 'Raleway';
     font-weight: 800;
@@ -129,31 +142,10 @@ body
     text-transform: uppercase;
     color: #2E2F42;
 }
-.header-lists {}
-.header-item {}
-.header-link {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #4D5AE5; 
-}
-.header-contacts {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.header-email-item {}
-.header-email-link {}
-.header-tel-item {}
-.header-tel-link {}
 
-.button-all, .button-web-site, .button-app, .button-design, .button-marketing
+/* оформлення кнопок 2-а сторінка портфоліо
+all, web-site, app, design, marketing*/
+.button-title
  {  font-family: inherit;
     font-weight: 600;
     font-size: 16px;
@@ -165,45 +157,23 @@ body
     color: #4D5AE5;
     background: #F4F4FD;
 }
-.button-all:hover {color: #FFFFFF;background: #404BBF;}
-.button-web-site:hover {color: #FFFFFF; background: #404BBF;}
-.button-app:hover {color: #FFFFFF; background: #404BBF;}
-.button-design:hover {color: #FFFFFF; background: #404BBF;}
-.button-marketing:hover{color: #FFFFFF; background: #404BBF;}
+.button-title:hover 
+{color: #FFFFFF;background: #404BBF;}
 
-.button-all:focus {color: #FFFFFF; background: #404BBF;} 
-.button-web-site:focus {color: #FFFFFF; background: #404BBF;}
-.button-app:focus {color: #FFFFFF; background: #404BBF;}
-.button-design:focus {color: #FFFFFF; background: #404BBF;}
-.button-marketing:focus {color: #FFFFFF; background: #404BBF;}
+.button-title:focus 
+{color: #FFFFFF; background: #404BBF;} 
 
 /* PORTFOLIO*/
 
-.portfolio-title-bank, 
-.portfolio-title-cashless,
-.portfolio-title-meditation,
-.portfolio-title-taxi,
-.portfolio-title-screen,
-.portfolio-title-online,
-.portfolio-title-instagram,
-.portfolio-title-food,
-.portfolio-title-coffee 
-{font-family: inherit;
+.portfolio-title 
+{   font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2em;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.portfolio-text-bank,
-.portfolio-text-cashless 
-.portfolio-text-meditation
-.portfolio-text-taxi
-.portfolio-text-screen
-.portfolio-text-online
-.portfolio-text-instagram 
-.portfolio-text-food 
-.portfolio-text-coffee 
+.portfolio-text 
 {
     font-family: inherit;
     font-weight: 400;
